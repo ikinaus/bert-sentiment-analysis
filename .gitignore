@@ -1,0 +1,7 @@
+.vscode/
+
+#datasets
+data/
+*.csv
+*.zip
+*.md
