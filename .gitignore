@@ -1,7 +1,10 @@
 .vscode/
 
-#datasets
+# datasets
 data/
 *.csv
 *.zip
 *.md
+
+# temp files
+temp.ipynb
