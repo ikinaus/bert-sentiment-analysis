@@ -11,3 +11,6 @@ temp.ipynb
 tmpl.ipynb
 temp.py
 templ.py
+
+# model
+*.pth
