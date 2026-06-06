@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  triton:
+    container_name: triton
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+      - "8002:8002"
+    restart: unless-stopped
+    volumes:
+      - ./triton/models:/models
+    command: [ "tritonserver", "--model-repository=/models" ]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [ gpu ]
+              count: 1
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - PYTHONUNBUFFERED=1
