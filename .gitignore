@@ -11,6 +11,10 @@ temp.ipynb
 tmpl.ipynb
 temp.py
 tempnb.py
+triton_python_backend_utils.py
 
 # model
 *.pth
+
+#json
+pyrightconfig.json
