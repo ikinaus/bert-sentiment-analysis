@@ -48,7 +48,7 @@ ensemble_scheduling {
         value: "attention_mask"
       }
       output_map {
-        key: "output"
+        key: "outputs"
         value: "OUTPUT"
       }
     }
