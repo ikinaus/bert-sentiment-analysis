@@ -1,7 +1,8 @@
 # How to run the project
 
 ```bash
-`docker-compose up -d --build``
+docker-compose up -d --build
+```
 
 *train_notebook.ipynb* - model training pipline
 
