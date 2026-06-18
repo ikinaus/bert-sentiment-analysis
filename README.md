@@ -1,5 +1,9 @@
 # How to run the project
 
+Run through the "train_notebook.ipynb" and create all necessary files (.pth, *.onnx, probably *.onnx.data)
+
+then:
+
 ```bash
 docker-compose up -d --build
 ```
