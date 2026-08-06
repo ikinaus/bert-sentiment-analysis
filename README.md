@@ -1,4 +1,4 @@
-# multilingual-review-classification
+# russian-review-sentiment-classifier
 
 Binary sentiment classification of Russian-language geo reviews, fine-tuned from `intfloat/multilingual-e5-small` and served with NVIDIA Triton Inference Server as an ONNX ensemble.
 
