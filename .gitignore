@@ -17,4 +17,5 @@ triton_python_backend_utils.py
 *.pth
 
 #json
+pyrightconfig.json.venv
 pyrightconfig.json
